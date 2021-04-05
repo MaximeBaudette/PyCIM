@@ -478,6 +478,7 @@ packageMap = {
     "SubGeographicalRegion": "CIM100.IEC61970.Base.Core",
     "NameType": "CIM100.IEC61970.Base.Core",
     "Substation": "CIM100.IEC61970.Base.Core",
+    "Feeder": "CIM100.IEC61970.Base.Core",
     "Name": "CIM100.IEC61970.Base.Core",
     "BaseVoltage": "CIM100.IEC61970.Base.Core",
     "Terminal": "CIM100.IEC61970.Base.Core",

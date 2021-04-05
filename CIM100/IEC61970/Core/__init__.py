@@ -52,6 +52,7 @@ from CIM100.IEC61970.Core.OperatingShare import OperatingShare
 from CIM100.IEC61970.Core.VoltageLevel import VoltageLevel
 from CIM100.IEC61970.Core.ReportingSuperGroup import ReportingSuperGroup
 from CIM100.IEC61970.Core.IrregularTimePoint import IrregularTimePoint
+from CIM100.IEC61970.Core.Feeder import Feeder
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#Core"
 nsPrefix = "cimCore"
