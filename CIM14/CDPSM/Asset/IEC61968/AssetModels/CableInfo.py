@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.ConductorInfo import ConductorInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.ConductorInfo import ConductorInfo
 
 class CableInfo(ConductorInfo):
     """Cable data.

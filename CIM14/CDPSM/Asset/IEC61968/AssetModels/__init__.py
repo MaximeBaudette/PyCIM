@@ -21,20 +21,20 @@
 """This package is an extension of Assets package and contains the core information classes that support asset management and different network and work planning applications with specialized AssetInfo subclasses. They hold attributes that can be referenced by not only Asset-s or AssetModel-s but also by ConductingEquipment-s.
 """
 
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.ConductorInfo import ConductorInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.WireArrangement import WireArrangement
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.WireType import WireType
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.EndDeviceInfo import EndDeviceInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.OverheadConductorInfo import OverheadConductorInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.TapChangerInfo import TapChangerInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.TransformerTankInfo import TransformerTankInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.CableInfo import CableInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.ConcentricNeutralCableInfo import ConcentricNeutralCableInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.TapeShieldCableInfo import TapeShieldCableInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.TransformerEndInfo import TransformerEndInfo
-from CIM15.CDPSM.Asset.IEC61968.AssetModels.PowerTransformerInfo import PowerTransformerInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.ConductorInfo import ConductorInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.WireArrangement import WireArrangement
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.WireType import WireType
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.EndDeviceInfo import EndDeviceInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.OverheadConductorInfo import OverheadConductorInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.TapChangerInfo import TapChangerInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.TransformerTankInfo import TransformerTankInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.CableInfo import CableInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.ConcentricNeutralCableInfo import ConcentricNeutralCableInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.TapeShieldCableInfo import TapeShieldCableInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.TransformerEndInfo import TransformerEndInfo
+from CIM14.CDPSM.Asset.IEC61968.AssetModels.PowerTransformerInfo import PowerTransformerInfo
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#AssetModels"
+nsURI = "http://iec.ch/TC57/2010/CIM-schema-CIM14?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#AssetModels"
 nsPrefix = "cimAssetModels"
 
 

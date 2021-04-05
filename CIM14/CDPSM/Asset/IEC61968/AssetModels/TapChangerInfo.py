@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Asset.IEC61968.Assets.AssetInfo import AssetInfo
+from CIM14.CDPSM.Asset.IEC61968.Assets.AssetInfo import AssetInfo
 
 class TapChangerInfo(AssetInfo):
     """Tap changer data.
