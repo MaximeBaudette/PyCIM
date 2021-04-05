@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.ConnectivityNodeContainer import ConnectivityNodeContainer
+from CIM14.CDPSM.Connectivity.IEC61970.Core.ConnectivityNodeContainer import ConnectivityNodeContainer
 
 class EquipmentContainer(ConnectivityNodeContainer):
     """A modeling construct to provide a root class for containing equipment.

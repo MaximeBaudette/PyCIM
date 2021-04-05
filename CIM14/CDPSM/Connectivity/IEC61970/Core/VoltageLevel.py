@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.EquipmentContainer import EquipmentContainer
+from CIM14.CDPSM.Connectivity.IEC61970.Core.EquipmentContainer import EquipmentContainer
 
 class VoltageLevel(EquipmentContainer):
     """A collection of equipment at one common system voltage forming a switchgear. The equipment typically consist of breakers, busbars, instrumentation, control, regulation and protection devices as well as assemblies of all these.

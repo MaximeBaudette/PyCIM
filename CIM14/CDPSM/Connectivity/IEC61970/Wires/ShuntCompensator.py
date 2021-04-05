@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.ConductingEquipment import ConductingEquipment
+from CIM14.CDPSM.Connectivity.IEC61970.Core.ConductingEquipment import ConductingEquipment
 
 class ShuntCompensator(ConductingEquipment):
     """A shunt capacitor or reactor or switchable bank of shunt capacitors or reactors. A section of a shunt compensator is an individual capacitor or reactor.  A negative value for reactivePerSection indicates that the compensator is a reactor. ShuntCompensator is a single terminal device.  Ground is implied.

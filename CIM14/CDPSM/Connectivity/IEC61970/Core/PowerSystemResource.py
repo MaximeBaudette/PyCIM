@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM14.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
 
 class PowerSystemResource(IdentifiedObject):
     """A power system resource can be an item of equipment such as a Switch, an EquipmentContainer containing many individual items of equipment such as a  Substation, or an organisational entity such as Company or SubControlArea.  This provides for the nesting of collections of PowerSystemResources within other PowerSystemResources. For example, a Switch could be a member of a Substation and a Substation could be a member of a division of a Company.

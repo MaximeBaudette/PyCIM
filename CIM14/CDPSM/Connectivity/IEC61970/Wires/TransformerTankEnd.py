@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Wires.TransformerEnd import TransformerEnd
+from CIM14.CDPSM.Connectivity.IEC61970.Wires.TransformerEnd import TransformerEnd
 
 class TransformerTankEnd(TransformerEnd):
     """Transformer tank end represents an individual winding for unbalanced models or for transformer tanks connected into a bank (and bank is modelled with the PowerTransformer).

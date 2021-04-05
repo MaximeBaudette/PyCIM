@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM14.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
 
 class BaseVoltage(IdentifiedObject):
     """Defines a nominal base voltage which is referenced in the system.

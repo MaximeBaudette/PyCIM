@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM14.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
 
 class PSRType(IdentifiedObject):
     """Classifying instances of the same class, e.g. overhead and underground ACLineSegments. This classification mechanism is intended to provide flexibility outside the scope of this standard, i.e. provide customisation that is non standard.

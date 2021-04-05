@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Wires.Switch import Switch
+from CIM14.CDPSM.Connectivity.IEC61970.Wires.Switch import Switch
 
 class GroundDisconnector(Switch):
     """A manually operated or motor operated mechanical switching device used for isolating a circuit or equipment from Ground.

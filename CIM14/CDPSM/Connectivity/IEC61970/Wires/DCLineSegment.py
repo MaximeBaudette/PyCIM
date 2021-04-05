@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Wires.Conductor import Conductor
+from CIM14.CDPSM.Connectivity.IEC61970.Wires.Conductor import Conductor
 
 class DCLineSegment(Conductor):
     """A wire or combination of wires not insulated from one another, with consistent electrical characteristics, used to carry direct current between points in the DC region of the power system.

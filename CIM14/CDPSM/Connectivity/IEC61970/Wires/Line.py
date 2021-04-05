@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.EquipmentContainer import EquipmentContainer
+from CIM14.CDPSM.Connectivity.IEC61970.Core.EquipmentContainer import EquipmentContainer
 
 class Line(EquipmentContainer):
     """Contains equipment beyond a substation belonging to a power transmission line.

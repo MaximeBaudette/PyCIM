@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.PowerSystemResource import PowerSystemResource
+from CIM14.CDPSM.Connectivity.IEC61970.Core.PowerSystemResource import PowerSystemResource
 
 class ShuntCompensatorPhase(PowerSystemResource):
     """Single phase of a multi-phase shunt compensator when its attributes might be different per phase.

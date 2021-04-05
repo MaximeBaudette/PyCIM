@@ -22,6 +22,6 @@
 """
 
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#IEC61968"
+nsURI = "http://iec.ch/TC57/2010/CIM-schema-CIM14?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#IEC61968"
 nsPrefix = "cimIEC61968"
 

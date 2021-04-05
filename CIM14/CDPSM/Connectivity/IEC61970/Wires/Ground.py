@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.ConductingEquipment import ConductingEquipment
+from CIM14.CDPSM.Connectivity.IEC61970.Core.ConductingEquipment import ConductingEquipment
 
 class Ground(ConductingEquipment):
     """A common point for connecting grounded conducting equipment such as shunt capacitors. The power system model can have more than one ground.

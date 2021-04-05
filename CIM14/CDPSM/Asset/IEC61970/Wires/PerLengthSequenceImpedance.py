@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Asset.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM14.CDPSM.Asset.IEC61970.Core.IdentifiedObject import IdentifiedObject
 
 class PerLengthSequenceImpedance(IdentifiedObject):
     """Sequence impedance and admittance parameters per unit length, for transposed lines of 1, 2, or 3 phases. For 1-phase lines, define x=x0=xself. For 2-phase lines, define x=xs-xm and x0=xs+xm.

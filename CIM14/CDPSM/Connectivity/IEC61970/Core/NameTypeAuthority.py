@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.Element import Element
+from CIM14.CDPSM.Connectivity.Element import Element
 
 class NameTypeAuthority(Element):
     """Authority responsible for creation and management of names of a given type; typically an organization or an enterprise system.

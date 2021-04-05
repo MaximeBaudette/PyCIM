@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.PowerSystemResource import PowerSystemResource
+from CIM14.CDPSM.Connectivity.IEC61970.Core.PowerSystemResource import PowerSystemResource
 
 class ConnectivityNodeContainer(PowerSystemResource):
     """A base class for all objects that may contain ConnectivityNodes or TopologicalNodes.

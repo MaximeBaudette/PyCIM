@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM14.CDPSM.Connectivity.IEC61970.Core.IdentifiedObject import IdentifiedObject
 
 class ConnectivityNode(IdentifiedObject):
     """Connectivity nodes are points where terminals of conducting equipment are connected together with zero impedance.

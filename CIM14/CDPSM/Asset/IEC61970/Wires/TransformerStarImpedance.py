@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Asset.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM14.CDPSM.Asset.IEC61970.Core.IdentifiedObject import IdentifiedObject
 
 class TransformerStarImpedance(IdentifiedObject):
     """Transformer star impedance (Pi-model) that accurately reflects impedance for transformers with 2 or 3 windings. For transformers with 4 or more windings, you must use TransformerTank model and related classes. For transmission networks use PowerTransformerEnd impedances (r, r0, x, x0, b, b0, g and g0).

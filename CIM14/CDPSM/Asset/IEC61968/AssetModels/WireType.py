@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Asset.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM14.CDPSM.Asset.IEC61970.Core.IdentifiedObject import IdentifiedObject
 
 class WireType(IdentifiedObject):
     """Wire conductor (per IEEE specs). A specific type of wire or combination of wires, not insulated from each other, suitable for carrying electrical current.

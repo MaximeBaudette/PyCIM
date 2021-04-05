@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Core.ConductingEquipment import ConductingEquipment
+from CIM14.CDPSM.Connectivity.IEC61970.Core.ConductingEquipment import ConductingEquipment
 
 class Junction(ConductingEquipment):
     """A point where one or more conducting equipments are connected with zero resistance.

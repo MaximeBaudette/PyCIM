@@ -21,8 +21,8 @@
 """This package contains the core information classes that support asset management applications that deal with the physical and lifecycle aspects of various network resources (as opposed to power system resource models defined in IEC61970::Wires package, which support network applications).
 """
 
-from CIM15.CDPSM.Asset.IEC61968.Assets.AssetInfo import AssetInfo
+from CIM14.CDPSM.Asset.IEC61968.Assets.AssetInfo import AssetInfo
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#Assets"
+nsURI = "http://iec.ch/TC57/2010/CIM-schema-CIM14?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#Assets"
 nsPrefix = "cimAssets"
 

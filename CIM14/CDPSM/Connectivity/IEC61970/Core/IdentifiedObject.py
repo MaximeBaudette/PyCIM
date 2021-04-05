@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.Element import Element
+from CIM14.CDPSM.Connectivity.Element import Element
 
 class IdentifiedObject(Element):
     """This is a root class to provide common identification for all classes needing identification and naming attributes

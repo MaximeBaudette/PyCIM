@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Wires.TransformerEnd import TransformerEnd
+from CIM14.CDPSM.Connectivity.IEC61970.Wires.TransformerEnd import TransformerEnd
 
 class PowerTransformerEnd(TransformerEnd):
     """A PowerTransformerEnd is associated with each Terminal of a PowerTransformer. The impdedance values r, r0, x, and x0 of a PowerTransformerEnd represents a star equivalentas follows 1) for a two Terminal PowerTransformer the high voltage PowerTransformerEnd has non zero values on r, r0, x, and x0 while the low voltage PowerTransformerEnd has zero values for r, r0, x, and x0. 2) for a three Terminal PowerTransformer the three PowerTransformerEnds represents a star equivalent with each leg in the star represented by r, r0, x, and x0 values. 3) for a PowerTransformer with more than three Terminals the PowerTransformerEnd impedance values cannot be used. Instead use the TransformerMeshImpedance or split the transformer into multiple PowerTransformers.

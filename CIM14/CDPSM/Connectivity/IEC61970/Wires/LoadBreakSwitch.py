@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM15.CDPSM.Connectivity.IEC61970.Wires.Switch import Switch
+from CIM14.CDPSM.Connectivity.IEC61970.Wires.Switch import Switch
 
 class LoadBreakSwitch(Switch):
     """A mechanical switching device capable of making, carrying, and breaking currents under normal operating conditions.
