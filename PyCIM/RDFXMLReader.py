@@ -288,13 +288,15 @@ def get_cim_ns(namespaces):
 
     nsuri = ns
 
-    import CIM14, CIM15, CIM16
+    import CIM14, CIM15, CIM16, CIM100
     if ns == CIM14.nsURI:
         ns = 'CIM14'
     elif ns == CIM15.nsURI:
         ns = 'CIM15'
-    elif ns == CIM16nsURI:
+    elif ns == CIM16.nsURI:
         ns  = 'CIM16'
+    elif ns == CIM100.nsURI:
+        ns = 'CIM100'
     else:
         ns = 'CIM16'
         logger.warn('Could not detect CIM version. Using %s.' % ns)
