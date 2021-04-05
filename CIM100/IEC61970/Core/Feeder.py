@@ -25,16 +25,19 @@ class Feeder(EquipmentContainer):
     """A new class for Feeder
     """
 
-    def __init__(self, NormalEnergizedFeeder = None, Location = None, NormalHeadTerminal, *args, **kw_args):
+    def __init__(self, NormalEnergizingSubstation = None, Location = None, NormalHeadTerminal=None, *args, **kw_args):
         """Initialises a new 'Feeder' instance.
 
        
         """
-        self._NormalEnergizedFeeder = []
-        self.NormalEnergizedFeeder = [] if NormalEnergizedFeeder is None else NormalEnergizedFeeder
+        self._NormalEnergizingSubstation = None
+        self.NormalEnergizingSubstation = NormalEnergizingSubstation
 
         self._Location = None
         self.Location = Location
+
+        self._NormalHeadTerminal = []
+        self.NormalHeadTerminal = [] if NormalHeadTerminal is None else NormalHeadTerminal
 
         super(Feeder, self).__init__(*args, **kw_args)
 
