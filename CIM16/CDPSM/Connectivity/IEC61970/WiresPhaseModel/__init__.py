@@ -22,7 +22,7 @@
 from CIM16.CDPSM.Connectivity.IEC61970.WiresPhaseModel.ShuntCompensatorPhase import ShuntCompensatorPhase
 from CIM16.CDPSM.Connectivity.IEC61970.WiresPhaseModel.SwitchPhase import SwitchPhase
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Connectivity#WiresPhaseModel"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Connectivity#WiresPhaseModel"
 nsPrefix = "cimWiresPhaseModel"
 
 

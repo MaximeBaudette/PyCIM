@@ -34,7 +34,7 @@ from CIM16.CDPSM.Asset.IEC61968.AssetModels.TapeShieldCableInfo import TapeShiel
 from CIM16.CDPSM.Asset.IEC61968.AssetModels.TransformerEndInfo import TransformerEndInfo
 from CIM16.CDPSM.Asset.IEC61968.AssetModels.PowerTransformerInfo import PowerTransformerInfo
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#AssetModels"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#AssetModels"
 nsPrefix = "cimAssetModels"
 
 

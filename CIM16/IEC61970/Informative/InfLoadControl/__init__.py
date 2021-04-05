@@ -24,7 +24,7 @@ from CIM16.IEC61970.Informative.InfLoadControl.LoadShedFunction import LoadShedF
 from CIM16.IEC61970.Informative.InfLoadControl.LoadMgmtFunction import LoadMgmtFunction
 from CIM16.IEC61970.Informative.InfLoadControl.LoadLimitFunction import LoadLimitFunction
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15#InfLoadControl"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16#InfLoadControl"
 nsPrefix = "cimInfLoadControl"
 
 

@@ -47,6 +47,6 @@ from CIM16.CDPSM.Connectivity.IEC61970.Wires.ShuntCompensator import ShuntCompen
 from CIM16.CDPSM.Connectivity.IEC61970.Wires.EnergySource import EnergySource
 from CIM16.CDPSM.Connectivity.IEC61970.Wires.Jumper import Jumper
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Connectivity#Wires"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Connectivity#Wires"
 nsPrefix = "cimWires"
 

@@ -22,6 +22,6 @@
 """
 
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Balanced#Generation"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Balanced#Generation"
 nsPrefix = "cimGeneration"
 

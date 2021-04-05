@@ -30,7 +30,7 @@ from CIM16.CDPSM.Asset.IEC61970.Wires.TransformerStarImpedance import Transforme
 from CIM16.CDPSM.Asset.IEC61970.Wires.PerLengthPhaseImpedance import PerLengthPhaseImpedance
 from CIM16.CDPSM.Asset.IEC61970.Wires.TransformerEnd import TransformerEnd
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#Wires"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-4/CDPSM/Asset#Wires"
 nsPrefix = "cimWires"
 
 

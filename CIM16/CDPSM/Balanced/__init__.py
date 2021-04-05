@@ -23,7 +23,7 @@
 
 from CIM16.CDPSM.Balanced.Element import Element
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Balanced"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Balanced"
 nsPrefix = "balanced"
 
 packageMap = {

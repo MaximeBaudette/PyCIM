@@ -40,7 +40,7 @@ from CIM16.CDPSM.Connectivity.IEC61970.Core.Name import Name
 from CIM16.CDPSM.Connectivity.IEC61970.Core.BaseVoltage import BaseVoltage
 from CIM16.CDPSM.Connectivity.IEC61970.Core.PowerSystemResource import PowerSystemResource
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Connectivity#Core"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Connectivity#Core"
 nsPrefix = "cimCore"
 
 

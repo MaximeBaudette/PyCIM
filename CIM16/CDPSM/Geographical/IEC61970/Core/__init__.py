@@ -28,6 +28,6 @@ from CIM16.CDPSM.Geographical.IEC61970.Core.IdentifiedObject import IdentifiedOb
 from CIM16.CDPSM.Geographical.IEC61970.Core.Name import Name
 from CIM16.CDPSM.Geographical.IEC61970.Core.PowerSystemResource import PowerSystemResource
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Geographical#Core"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Geographical#Core"
 nsPrefix = "cimCore"
 

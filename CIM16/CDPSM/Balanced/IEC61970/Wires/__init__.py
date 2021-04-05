@@ -44,7 +44,7 @@ from CIM16.CDPSM.Balanced.IEC61970.Wires.TransformerEnd import TransformerEnd
 from CIM16.CDPSM.Balanced.IEC61970.Wires.EnergySource import EnergySource
 from CIM16.CDPSM.Balanced.IEC61970.Wires.ShuntCompensator import ShuntCompensator
 
-nsURI = "http://iec.ch/TC57/2010/CIM-schema-cim15?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Balanced#Wires"
+nsURI = "http://iec.ch/TC57/2013/CIM-schema-cim16?profile=http://iec.ch/TC57/2011/iec61968-13/CDPSM/Balanced#Wires"
 nsPrefix = "cimWires"
 
 
