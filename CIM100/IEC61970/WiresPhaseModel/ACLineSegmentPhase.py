@@ -23,10 +23,11 @@ from CIM100.IEC61970.Core.PowerSystemResource import PowerSystemResource
 
 class ACLineSegmentPhase(PowerSystemResource):
 
-    def __init__(self, phase=None, ACLineSegment=None, *args, **kw_args):
+    def __init__(self, phase=None, sequenceNumber = None, ACLineSegment=None, *args, **kw_args):
         """Initialises a new 'ACLineSegmentPhase' instance.
 
         @param phase: 'A', 'B', 'C', 'N'
+        @param sequenceNumber: 1,2,3
         @param ACLineSegment:
         """
 
@@ -36,9 +37,9 @@ class ACLineSegmentPhase(PowerSystemResource):
 
         super(ACLineSegmentPhase, self).__init__(*args, **kw_args)
 
-    _attrs = ["phase"]
-    _attr_types = {"phase": str}
-    _defaults = {"phase": "C"}
+    _attrs = ["phase", "sequenceNumber"]
+    _attr_types = {"phase": str, "sequenceNumber":int}
+    _defaults = {"phase": "C", "sequenceNumber":1}
     _enums = {"phase": "SinglePhaseKind"}
     _refs = ["ACLineSegment"]
     _many_refs = []
