@@ -1,0 +1,1 @@
+from CIM100.IEC61968.AssetInfo.WireSpacingInfo import WireSpacingInfo
