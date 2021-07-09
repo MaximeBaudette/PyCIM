@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class ErpPerson(IdentifiedObject):
     """General purpose information for name and other information to contact people.General purpose information for name and other information to contact people.

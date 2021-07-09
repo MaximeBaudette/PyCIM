@@ -21,7 +21,7 @@
 # Modified by Gustav Holm (guholm@kth.se) & Francis J. Gomez (fragom@kth.se)
 # Modified date: 05/06/2017
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class DynamicsFunctionBlock(IdentifiedObject):
     

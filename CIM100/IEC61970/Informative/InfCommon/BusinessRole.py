@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class BusinessRole(IdentifiedObject):
     """A business role that this organisation plays. A single organisation typically performs many functions, each one described as a role.A business role that this organisation plays. A single organisation typically performs many functions, each one described as a role.

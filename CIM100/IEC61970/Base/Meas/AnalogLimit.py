@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Meas.Limit import Limit
+from CIM100.IEC61970.Base.Meas.Limit import Limit
 
 class AnalogLimit(Limit):
     """Limit values for Analog measurementsLimit values for Analog measurements

@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class AssetModel(IdentifiedObject):
     """Model of an asset, either a product of a specific manufacturer or a generic asset model or material item. Data-sheet characteristics are available through the associated AssetInfo subclass and can be shared with asset or power system resource instances.Model of an asset, either a product of a specific manufacturer or a generic asset model or material item. Data-sheet characteristics are available through the associated AssetInfo subclass and can be shared with asset or power system resource instances.

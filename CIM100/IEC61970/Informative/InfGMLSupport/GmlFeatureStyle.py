@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class GmlFeatureStyle(IdentifiedObject):
     """Used for styling a particular aspect or aspects of a feature, such as geometry, topology or arbitrary text string.Used for styling a particular aspect or aspects of a feature, such as geometry, topology or arbitrary text string.

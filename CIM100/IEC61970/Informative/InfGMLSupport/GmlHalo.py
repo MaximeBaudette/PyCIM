@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class GmlHalo(IdentifiedObject):
     """A type of Fill that is applied to the backgrounds of font glyphs. The use of halos greatly improves the readability of text labels.A type of Fill that is applied to the backgrounds of font glyphs. The use of halos greatly improves the readability of text labels.

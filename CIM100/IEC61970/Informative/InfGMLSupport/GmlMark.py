@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class GmlMark(IdentifiedObject):
     """Defines a 'shape' which has coloring applied to it (i.e. square, circle, triangle, star, ...).Defines a 'shape' which has coloring applied to it (i.e. square, circle, triangle, star, ...).

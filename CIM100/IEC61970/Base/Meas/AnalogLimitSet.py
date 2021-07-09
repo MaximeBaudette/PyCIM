@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Meas.LimitSet import LimitSet
+from CIM100.IEC61970.Base.Meas.LimitSet import LimitSet
 
 class AnalogLimitSet(LimitSet):
     """An AnalogLimitSet specifies a set of Limits that are associated with an Analog measurement.An AnalogLimitSet specifies a set of Limits that are associated with an Analog measurement.

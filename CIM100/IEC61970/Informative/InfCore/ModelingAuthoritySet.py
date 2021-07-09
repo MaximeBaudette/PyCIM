@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class ModelingAuthoritySet(IdentifiedObject):
     """A Modeling Authority Set is a group of objects in a network model where the data is supplied and maintained by the same Modeling Authority. This class is typically not included in instance data exchange as this information is tracked by other mechanisms in the exchange.A Modeling Authority Set is a group of objects in a network model where the data is supplied and maintained by the same Modeling Authority. This class is typically not included in instance data exchange as this information is tracked by other mechanisms in the exchange.

@@ -18,8 +18,8 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.EquipmentContainer import EquipmentContainer
-from CIM100.IEC61970.Core.Substation import Substation
+from CIM100.IEC61970.Base.Core.EquipmentContainer import EquipmentContainer
+from CIM100.IEC61970.Base.Core.Substation import Substation
 
 class Feeder(EquipmentContainer):
     """A new class for Feeder

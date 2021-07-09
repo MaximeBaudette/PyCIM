@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class DiagramObjectStyle(IdentifiedObject):
     """A reference to a style used by the originating system for a DiagramObject.  A DiagramObjectStyle describes information such as  &bull; line thickness &bull; shape, e.g circle, rectangle ... &bull; colorA reference to a style used by the originating system for a DiagramObject.  A DiagramObjectStyle describes information such as  &bull; line thickness &bull; shape, e.g circle, rectangle ... &bull; color

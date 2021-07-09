@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.Curve import Curve
+from CIM100.IEC61970.Base.Core.Curve import Curve
 
 class SubscribePowerCurve(Curve):
     """Price curve for specifying the cost of energy (X) at points in time (y1) according to a prcing structure, which is based on a tariff.Price curve for specifying the cost of energy (X) at points in time (y1) according to a prcing structure, which is based on a tariff.

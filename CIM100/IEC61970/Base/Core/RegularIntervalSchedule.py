@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.BasicIntervalSchedule import BasicIntervalSchedule
+from CIM100.IEC61970.Base.Core.BasicIntervalSchedule import BasicIntervalSchedule
 
 class RegularIntervalSchedule(BasicIntervalSchedule):
     """The schedule has TimePoints where the time between them is constant.The schedule has TimePoints where the time between them is constant.

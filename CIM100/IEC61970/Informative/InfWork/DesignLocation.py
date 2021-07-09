@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class DesignLocation(IdentifiedObject):
     """A logical part of the design (e.g., pole and all equipment on a pole). This includes points and spans.A logical part of the design (e.g., pole and all equipment on a pole). This includes points and spans.

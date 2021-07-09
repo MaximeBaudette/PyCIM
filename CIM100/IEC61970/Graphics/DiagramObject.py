@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class DiagramObject(IdentifiedObject):
     """This class defines an object that defines one or more points in a given space. This object can be associated with anything that subclasses Identified Object in IEC 61970-301This class defines an object that defines one or more points in a given space. This object can be associated with anything that subclasses Identified Object in IEC 61970-301

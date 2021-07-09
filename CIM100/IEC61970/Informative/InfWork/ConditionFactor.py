@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class ConditionFactor(IdentifiedObject):
     """This is to specify the various condition factors for a design that may alter the cost estimate or the allocation.This is to specify the various condition factors for a design that may alter the cost estimate or the allocation.

@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class Vendor(IdentifiedObject):
     """The entity that owns point of sale and contracts with cashier to receipt payments and vend tokens using the payment system. Vendor has a private contract with and is managed by merchant who is a type of organisation. Vendor is accountable to merchant for revenue collected, who is in turn accountable to supplier.The entity that owns point of sale and contracts with cashier to receipt payments and vend tokens using the payment system. Vendor has a private contract with and is managed by merchant who is a type of organisation. Vendor is accountable to merchant for revenue collected, who is in turn accountable to supplier.

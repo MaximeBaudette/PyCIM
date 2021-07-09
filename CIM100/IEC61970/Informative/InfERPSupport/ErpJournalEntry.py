@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class ErpJournalEntry(IdentifiedObject):
     """Details of an individual entry in a journal, which is to be posted to a ledger on the posting date.Details of an individual entry in a journal, which is to be posted to a ledger on the posting date.

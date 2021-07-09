@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class GmlDiagramObject(IdentifiedObject):
     """Any of the magnitudes that serve to define the position of a point by reference to a fixed figure, system of lines, etc.Any of the magnitudes that serve to define the position of a point by reference to a fixed figure, system of lines, etc.

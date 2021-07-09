@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class PointOfSale(IdentifiedObject):
     """Logical point where transactions take place with operational interaction between cashier and the payment system; in certain cases point of sale interacts directly with the end customer, in which case cashier might not be a real person: for example a self-service kiosk or over the internet.Logical point where transactions take place with operational interaction between cashier and the payment system; in certain cases point of sale interacts directly with the end customer, in which case cashier might not be a real person: for example a self-service kiosk or over the internet.

@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class Usage(IdentifiedObject):
     """The way material and assets are used to perform a certain type of work task. The way is described in text in the inheritied description attribute.The way material and assets are used to perform a certain type of work task. The way is described in text in the inheritied description attribute.

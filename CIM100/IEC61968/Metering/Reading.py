@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Meas.MeasurementValue import MeasurementValue
+from CIM100.IEC61970.Base.Meas.MeasurementValue import MeasurementValue
 
 class Reading(MeasurementValue):
     """Specific value measured by a meter or other asset. Each Reading is associated with a specific ReadingType.Specific value measured by a meter or other asset. Each Reading is associated with a specific ReadingType.

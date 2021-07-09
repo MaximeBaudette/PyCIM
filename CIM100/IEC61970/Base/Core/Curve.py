@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class Curve(IdentifiedObject):
     """A multi-purpose curve or functional relationship between an independent variable (X-axis) and dependent (Y-axis) variables.A multi-purpose curve or functional relationship between an independent variable (X-axis) and dependent (Y-axis) variables.

@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class ServiceDeliveryPoint(IdentifiedObject):
     """Logical point on the network where the ownership of the service changes hands. It is one of potentially many service points within a service location, delivering service in accordance with a customer agreement. Used at the place where a meter may be installed.Logical point on the network where the ownership of the service changes hands. It is one of potentially many service points within a service location, delivering service in accordance with a customer agreement. Used at the place where a meter may be installed.

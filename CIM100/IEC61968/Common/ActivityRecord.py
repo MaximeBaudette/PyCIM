@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class ActivityRecord(IdentifiedObject):
     """Records activity for an entity at a point in time; activity may be for an event that has already occurred or for a planned activity.Records activity for an entity at a point in time; activity may be for an event that has already occurred or for a planned activity.

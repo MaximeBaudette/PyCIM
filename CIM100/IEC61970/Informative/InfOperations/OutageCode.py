@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class OutageCode(IdentifiedObject):
     """Classification of outage types. Multiple outage codes may apply to a given outage or outage step.The primary overall outage type is recorded in 'OutageRecord.outageType'. There may be more than one classification per outage step and/or per outage record. Example codes/subcodes include: weather/ice, weather/lightning, wildlife/squirrel, wildlife/bird, burned/overload, burned/weather, wire down/accident, wire down/tree, wire down/vandalism, etc. The typical outage code is in the inherited association to Name. The code is described in the inherited 'description' attribute.Classification of outage types. Multiple outage codes may apply to a given outage or outage step.The primary overall outage type is recorded in 'OutageRecord.outageType'. There may be more than one classification per outage step and/or per outage record. Example codes/subcodes include: weather/ice, weather/lightning, wildlife/squirrel, wildlife/bird, burned/overload, burned/weather, wire down/accident, wire down/tree, wire down/vandalism, etc. The typical outage code is in the inherited association to Name. The code is described in the inherited 'description' attribute.

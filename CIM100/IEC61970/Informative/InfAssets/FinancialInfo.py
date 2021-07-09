@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class FinancialInfo(IdentifiedObject):
     """Various current financial properties associated with a particular asset. Historical properties may be determined by ActivityRecords associated with the asset.Various current financial properties associated with a particular asset. Historical properties may be determined by ActivityRecords associated with the asset.

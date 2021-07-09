@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class ErpPersonnel(IdentifiedObject):
     """Information that applies to the basic data about a utility person, used by ERP applications to transfer Personnel data for a worker.Information that applies to the basic data about a utility person, used by ERP applications to transfer Personnel data for a worker.

@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class CUGroup(IdentifiedObject):
     """A Compatible Unit Group identifies a set of compatible units which may be jointly utilized for estimating and designating jobs.A Compatible Unit Group identifies a set of compatible units which may be jointly utilized for estimating and designating jobs.

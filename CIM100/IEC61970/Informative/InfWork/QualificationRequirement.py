@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Core.IdentifiedObject import IdentifiedObject
+from CIM100.IEC61970.Base.Core.IdentifiedObject import IdentifiedObject
 
 class QualificationRequirement(IdentifiedObject):
     """Certain skills are required and must be certified in order for a person (typically a member of a crew) to be qualified to work on types of equipment.Certain skills are required and must be certified in order for a person (typically a member of a crew) to be qualified to work on types of equipment.
