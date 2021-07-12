@@ -16,7 +16,7 @@ class PowerElectronicsConnectionPhase(PowerSystemResource):
         #: 
         self.q = q
 
-         elf._phase = None
+        self._phase = None
         self.phase = phase
        
        
