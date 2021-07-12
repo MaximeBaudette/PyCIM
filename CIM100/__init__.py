@@ -401,6 +401,8 @@ packageMap = {
     "PhaseTapChangerNonLinear": "CIM100.IEC61970.Base.Wires",
     "PhaseTapChangerSymetrical": "CIM100.IEC61970.Base.Wires",
     "Jumper": "CIM100.IEC61970.Base.Wires",
+    "PowerElectronicsConnection": "CIM100.IEC61970.Base.Wires",
+    "PowerElectronicsConnectionPhase": "CIM100.IEC61970.Base.Wires",
     "AccumulatorLimit": "CIM100.IEC61970.Base.Meas",
     "ValueToAlias": "CIM100.IEC61970.Base.Meas",
     "MeasurementValueSource": "CIM100.IEC61970.Base.Meas",
