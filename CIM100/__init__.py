@@ -357,7 +357,7 @@ packageMap = {
     "RatioTapChangerTabular": "CIM100.IEC61970.Wires",
     "PowerTransformer": "CIM100.IEC61970.Wires",
     "Fuse": "CIM100.IEC61970.Wires",
-    "EnergyConsumer": "CIM100.IEC61970.Wires",
+    "EnergyConsumer": "CIM100.IEC61970.Base.Wires",
     "Disconnector": "CIM100.IEC61970.Wires",
     "Connector": "CIM100.IEC61970.Wires",
     "ReactiveCapabilityCurve": "CIM100.IEC61970.Wires",
