@@ -24,7 +24,7 @@ class EnergyConsumer(ConductingEquipment):
     """Generic user of energy - a  point of consumption on the power system modelGeneric user of energy - a  point of consumption on the power system model
     """
 
-    def __init__(self, qfixedPct=0.0, customerCount=0, pfixedPct=0.0, pfixed=0.0, qfixed=0.0, ServiceDeliveryPoints=None, LoadResponse=None, PowerCutZone=None, EnergyConsumerPhases=None, p=0.0, q=0.0, *args, **kw_args):
+    def __init__(self, qfixedPct=0.0, customerCount=0, pfixedPct=0.0, pfixed=0.0, qfixed=0.0, grounded = False, phaseConnection = None, ServiceDeliveryPoints=None, LoadResponse=None, PowerCutZone=None, EnergyConsumerPhases=None, p=0.0, q=0.0, *args, **kw_args):
         """Initialises a new 'EnergyConsumer' instance.
 
         @param qfixedPct: Fixed reactive power as per cent of load group fixed reactive power. Load sign convention is used, i.e. positive sign means flow out from a node. 
@@ -52,6 +52,11 @@ class EnergyConsumer(ConductingEquipment):
         #: Reactive power of the load that is a fixed quantity. Load sign convention is used, i.e. positive sign means flow out from a node.
         self.qfixed = qfixed
 
+        self.grounded = grounded
+
+        self._phaseConnection = None
+        self.phaseConnection = phaseConnection
+
         self._ServiceDeliveryPoints = []
         self.ServiceDeliveryPoints = [] if ServiceDeliveryPoints is None else ServiceDeliveryPoints
 
@@ -71,10 +76,10 @@ class EnergyConsumer(ConductingEquipment):
         super(EnergyConsumer, self).__init__(*args, **kw_args)
 
     _attrs = ["qfixedPct", "customerCount", "pfixedPct", "pfixed", "qfixed", "p", "q"]
-    _attr_types = {"qfixedPct": float, "customerCount": int, "pfixedPct": float, "pfixed": float, "qfixed": float, "p": float, "q": float}
+    _attr_types = {"qfixedPct": float, "customerCount": int, "pfixedPct": float, "pfixed": float, "qfixed": float, "p": float, "q": float, "grounded":bool}
     _defaults = {"qfixedPct": 0.0, "customerCount": 0, "pfixedPct": 0.0, "pfixed": 0.0, "qfixed": 0.0, "p": 0.0, "q": 0.0}
     _enums = {}
-    _refs = ["ServiceDeliveryPoints", "LoadResponse", "PowerCutZone", "EnergyConsumerPhases"]
+    _refs = ["ServiceDeliveryPoints", "LoadResponse", "PowerCutZone", "EnergyConsumerPhases", "phaseConnection"]
     _many_refs = ["ServiceDeliveryPoints", "EnergyConsumerPhases"]
 
     def getServiceDeliveryPoints(self):

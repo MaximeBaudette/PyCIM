@@ -24,7 +24,7 @@ class ConnectivityNode(IdentifiedObject):
     """Connectivity nodes are points where terminals of conducting equipment are connected together with zero impedance.Connectivity nodes are points where terminals of conducting equipment are connected together with zero impedance.
     """
 
-    def __init__(self, TopologicalNode=None, ConnectivityNodeContainer=None, Terminals=None, *args, **kw_args):
+    def __init__(self, TopologicalNode=None, ConnectivityNodeContainer=None, Terminals=None, OperationalLimitSet=None, *args, **kw_args):
         """Initialises a new 'ConnectivityNode' instance.
 
         @param TopologicalNode: Several ConnectivityNode(s) may combine together to form a single TopologicalNode, depending on the current state of the network.
@@ -40,13 +40,16 @@ class ConnectivityNode(IdentifiedObject):
         self._Terminals = []
         self.Terminals = [] if Terminals is None else Terminals
 
+        self._OperationalLimitSet = None
+        self.OperationalLimitSet = OperationalLimitSet
+
         super(ConnectivityNode, self).__init__(*args, **kw_args)
 
     _attrs = []
     _attr_types = {}
     _defaults = {}
     _enums = {}
-    _refs = ["TopologicalNode", "ConnectivityNodeContainer", "Terminals"]
+    _refs = ["TopologicalNode", "ConnectivityNodeContainer", "Terminals", "OperationalLimitSet"]
     _many_refs = ["Terminals"]
 
     def getTopologicalNode(self):
