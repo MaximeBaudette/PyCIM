@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Protection.ProtectionEquipment import ProtectionEquipment
+from CIM100.IEC61970.Base.Protection.ProtectionEquipment import ProtectionEquipment
 
 class CurrentRelay(ProtectionEquipment):
     """A device that checks current flow values in any direction or designated directionA device that checks current flow values in any direction or designated direction

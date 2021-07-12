@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Generation.GenerationDynamics.SteamSupply import SteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.SteamSupply import SteamSupply
 
 class FossilSteamSupply(SteamSupply):
     """Fossil fueled boiler (e.g., coal, oil, gas)Fossil fueled boiler (e.g., coal, oil, gas)

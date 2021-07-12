@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Generation.GenerationDynamics.FossilSteamSupply import FossilSteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.FossilSteamSupply import FossilSteamSupply
 
 class HeatRecoveryBoiler(FossilSteamSupply):
     """The heat recovery system associated with combustion turbines in order to produce steam for combined cycle plantsThe heat recovery system associated with combustion turbines in order to produce steam for combined cycle plants

@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.StateVariables.StateVariable import StateVariable
+from CIM100.IEC61970.Base.StateVariables.StateVariable import StateVariable
 
 class SvInjection(StateVariable):
     """Injection state variable. Positive sign means flow into the TopologicalNode.Injection state variable. Positive sign means flow into the TopologicalNode.

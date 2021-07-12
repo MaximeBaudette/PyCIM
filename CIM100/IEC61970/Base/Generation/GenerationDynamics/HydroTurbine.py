@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Generation.GenerationDynamics.PrimeMover import PrimeMover
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.PrimeMover import PrimeMover
 
 class HydroTurbine(PrimeMover):
     """A water driven prime mover. Typical turbine types are: Francis, Kaplan, and Pelton.A water driven prime mover. Typical turbine types are: Francis, Kaplan, and Pelton.

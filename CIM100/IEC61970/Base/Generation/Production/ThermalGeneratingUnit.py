@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Generation.Production.GeneratingUnit import GeneratingUnit
+from CIM100.IEC61970.Base.Generation.Production.GeneratingUnit import GeneratingUnit
 
 class ThermalGeneratingUnit(GeneratingUnit):
     """A generating unit whose prime mover could be a steam turbine, combustion turbine, or diesel engine.A generating unit whose prime mover could be a steam turbine, combustion turbine, or diesel engine.

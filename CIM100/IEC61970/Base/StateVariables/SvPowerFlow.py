@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.StateVariables.StateVariable import StateVariable
+from CIM100.IEC61970.Base.StateVariables.StateVariable import StateVariable
 
 class SvPowerFlow(StateVariable):
     """State variable for power flow. Load convention is used for flow direction. This means flow out from the TopologicalNode into the equipment is positive.State variable for power flow. Load convention is used for flow direction. This means flow out from the TopologicalNode into the equipment is positive.

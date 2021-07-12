@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.StateVariables.StateVariable import StateVariable
+from CIM100.IEC61970.Base.StateVariables.StateVariable import StateVariable
 
 class SvShuntCompensatorSections(StateVariable):
     """State variable for the number of sections in service for a shunt compensator.State variable for the number of sections in service for a shunt compensator.

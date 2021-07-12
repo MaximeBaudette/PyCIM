@@ -21,15 +21,15 @@
 """State variables for analysis solutions such as powerflow.
 """
 
-from CIM100.IEC61970.StateVariables.SvVoltage import SvVoltage
-from CIM100.IEC61970.StateVariables.SvShortCircuit import SvShortCircuit
-from CIM100.IEC61970.StateVariables.SvShuntCompensatorSections import SvShuntCompensatorSections
-from CIM100.IEC61970.StateVariables.StateVariable import StateVariable
-from CIM100.IEC61970.StateVariables.SvTapStep import SvTapStep
-from CIM100.IEC61970.StateVariables.SvStatus import SvStatus
-from CIM100.IEC61970.StateVariables.SvInjection import SvInjection
-from CIM100.IEC61970.StateVariables.SvPowerFlow import SvPowerFlow
-from CIM100.IEC61970.StateVariables.TopologicalIsland import TopologicalIsland
+from CIM100.IEC61970.Base.StateVariables.SvVoltage import SvVoltage
+from CIM100.IEC61970.Base.StateVariables.SvShortCircuit import SvShortCircuit
+from CIM100.IEC61970.Base.StateVariables.SvShuntCompensatorSections import SvShuntCompensatorSections
+from CIM100.IEC61970.Base.StateVariables.StateVariable import StateVariable
+from CIM100.IEC61970.Base.StateVariables.SvTapStep import SvTapStep
+from CIM100.IEC61970.Base.StateVariables.SvStatus import SvStatus
+from CIM100.IEC61970.Base.StateVariables.SvInjection import SvInjection
+from CIM100.IEC61970.Base.StateVariables.SvPowerFlow import SvPowerFlow
+from CIM100.IEC61970.Base.StateVariables.TopologicalIsland import TopologicalIsland
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#StateVariables"
 nsPrefix = "cimStateVariables"

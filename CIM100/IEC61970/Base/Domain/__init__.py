@@ -21,7 +21,7 @@
 """The domain package define primitive datatypes that are used by classes in other packages. Stereotypes are used to describe the datatypes. The following sterotypes are defined  &lt;&lt;enumeration&gt;&gt; A list of permissable constant values.  &lt;&lt;Primitive&gt;&gt; The most basic data types that all other data types derive from.  &lt;&lt;CIMDataType&gt;&gt; A datatype that contains a value attribute, an optional unit of measure and a unit multiplier. The unit and multiplier are specified as a static variable initialized to the allowed value.  &lt;&lt;Compound&gt;&gt; A composite of two or more attributes.
 """
 
-from CIM100.IEC61970.Domain.DateTimeInterval import DateTimeInterval
+from CIM100.IEC61970.Base.Domain.DateTimeInterval import DateTimeInterval
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#Domain"
 nsPrefix = "cimDomain"

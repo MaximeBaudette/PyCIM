@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Generation.GenerationDynamics.PrimeMover import PrimeMover
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.PrimeMover import PrimeMover
 
 class CombustionTurbine(PrimeMover):
     """A prime mover that is typically fueled by gas or light oilA prime mover that is typically fueled by gas or light oil

@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Generation.GenerationDynamics.SteamSupply import SteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.SteamSupply import SteamSupply
 
 class PWRSteamSupply(SteamSupply):
     """Pressurized water reactor used as a steam supply to a steam turbinePressurized water reactor used as a steam supply to a steam turbine

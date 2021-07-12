@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Generation.GenerationDynamics.FossilSteamSupply import FossilSteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.FossilSteamSupply import FossilSteamSupply
 
 class DrumBoiler(FossilSteamSupply):
     """Drum boilerDrum boiler

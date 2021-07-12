@@ -21,9 +21,9 @@
 """Contingencies to be studied.
 """
 
-from CIM100.IEC61970.Contingency.ContingencyEquipment import ContingencyEquipment
-from CIM100.IEC61970.Contingency.Contingency import Contingency
-from CIM100.IEC61970.Contingency.ContingencyElement import ContingencyElement
+from CIM100.IEC61970.Base.Contingency.ContingencyEquipment import ContingencyEquipment
+from CIM100.IEC61970.Base.Contingency.Contingency import Contingency
+from CIM100.IEC61970.Base.Contingency.ContingencyElement import ContingencyElement
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#Contingency"
 nsPrefix = "cimContingency"

@@ -21,8 +21,8 @@
 """An extension to the Core Package that in association with the Terminal class models Connectivity, that is the physical definition of how equipment is connected together. In addition it models Topology, that is the logical definition of how equipment is connected via closed switches. The Topology definition is independent of the other electrical characteristics.
 """
 
-from CIM100.IEC61970.Topology.BusNameMarker import BusNameMarker
-from CIM100.IEC61970.Topology.TopologicalNode import TopologicalNode
+from CIM100.IEC61970.Base.Topology.BusNameMarker import BusNameMarker
+from CIM100.IEC61970.Base.Topology.TopologicalNode import TopologicalNode
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#Topology"
 nsPrefix = "cimTopology"

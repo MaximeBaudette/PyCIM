@@ -21,11 +21,11 @@
 """The ControlArea package models area specifications which can be used for a variety of purposes.  The package as a whole models potentially overlapping control area specifications for the purpose of actual generation control, load forecast area load capture, or powerflow based analysis.
 """
 
-from CIM100.IEC61970.ControlArea.AltTieMeas import AltTieMeas
-from CIM100.IEC61970.ControlArea.AltGeneratingUnitMeas import AltGeneratingUnitMeas
-from CIM100.IEC61970.ControlArea.TieFlow import TieFlow
-from CIM100.IEC61970.ControlArea.ControlArea import ControlArea
-from CIM100.IEC61970.ControlArea.ControlAreaGeneratingUnit import ControlAreaGeneratingUnit
+from CIM100.IEC61970.Base.ControlArea.AltTieMeas import AltTieMeas
+from CIM100.IEC61970.Base.ControlArea.AltGeneratingUnitMeas import AltGeneratingUnitMeas
+from CIM100.IEC61970.Base.ControlArea.TieFlow import TieFlow
+from CIM100.IEC61970.Base.ControlArea.ControlArea import ControlArea
+from CIM100.IEC61970.Base.ControlArea.ControlAreaGeneratingUnit import ControlAreaGeneratingUnit
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#ControlArea"
 nsPrefix = "cimControlArea"

@@ -21,19 +21,19 @@
 """The Generation Dynamics package contains prime movers, such as turbines and boilers, which are needed for simulation and educational purposes.
 """
 
-from CIM100.IEC61970.Generation.GenerationDynamics.BWRSteamSupply import BWRSteamSupply
-from CIM100.IEC61970.Generation.GenerationDynamics.HydroTurbine import HydroTurbine
-from CIM100.IEC61970.Generation.GenerationDynamics.SteamTurbine import SteamTurbine
-from CIM100.IEC61970.Generation.GenerationDynamics.SteamSupply import SteamSupply
-from CIM100.IEC61970.Generation.GenerationDynamics.FossilSteamSupply import FossilSteamSupply
-from CIM100.IEC61970.Generation.GenerationDynamics.Subcritical import Subcritical
-from CIM100.IEC61970.Generation.GenerationDynamics.PWRSteamSupply import PWRSteamSupply
-from CIM100.IEC61970.Generation.GenerationDynamics.PrimeMover import PrimeMover
-from CIM100.IEC61970.Generation.GenerationDynamics.CombustionTurbine import CombustionTurbine
-from CIM100.IEC61970.Generation.GenerationDynamics.HeatRecoveryBoiler import HeatRecoveryBoiler
-from CIM100.IEC61970.Generation.GenerationDynamics.Supercritical import Supercritical
-from CIM100.IEC61970.Generation.GenerationDynamics.DrumBoiler import DrumBoiler
-from CIM100.IEC61970.Generation.GenerationDynamics.CTTempActivePowerCurve import CTTempActivePowerCurve
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.BWRSteamSupply import BWRSteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.HydroTurbine import HydroTurbine
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.SteamTurbine import SteamTurbine
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.SteamSupply import SteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.FossilSteamSupply import FossilSteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.Subcritical import Subcritical
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.PWRSteamSupply import PWRSteamSupply
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.PrimeMover import PrimeMover
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.CombustionTurbine import CombustionTurbine
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.HeatRecoveryBoiler import HeatRecoveryBoiler
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.Supercritical import Supercritical
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.DrumBoiler import DrumBoiler
+from CIM100.IEC61970.Base.Generation.GenerationDynamics.CTTempActivePowerCurve import CTTempActivePowerCurve
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#GenerationDynamics"
 nsPrefix = "cimGenerationDynamics"

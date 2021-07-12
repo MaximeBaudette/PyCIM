@@ -18,7 +18,7 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-from CIM100.IEC61970.Contingency.ContingencyElement import ContingencyElement
+from CIM100.IEC61970.Base.Contingency.ContingencyElement import ContingencyElement
 
 class ContingencyEquipment(ContingencyElement):
     """A equipment to which the in service status is to change such as a power transformer or AC line segment.A equipment to which the in service status is to change such as a power transformer or AC line segment.
