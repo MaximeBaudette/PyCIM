@@ -83,6 +83,7 @@ from CIM100.IEC61970.Base.Wires.PhaseTapChangerSymetrical import PhaseTapChanger
 from CIM100.IEC61970.Base.Wires.Jumper import Jumper
 from CIM100.IEC61970.Base.Wires.PowerElectronicsConnection import PowerElectronicsConnection
 from CIM100.IEC61970.Base.Wires.PowerElectronicsConnectionPhase import PowerElectronicsConnectionPhase
+from CIM100.IEC61970.Base.Wires.LinearShuntCompensator import LinearShuntCompensator
 
 nsURI = "http://iec.ch/TC57/2013/CIM-schema-CIM100#Wires"
 nsPrefix = "cimWires"
