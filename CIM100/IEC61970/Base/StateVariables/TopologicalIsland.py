@@ -24,14 +24,14 @@ class TopologicalIsland(IdentifiedObject):
     """An electrically connected subset of the network. Topological islands can change as the current network state changes: e.g. due to  - disconnect switches or breakers change state in a SCADA/EMS - manual creation, change or deletion of TopologicalNodes in a planning tool.An electrically connected subset of the network. Topological islands can change as the current network state changes: e.g. due to  - disconnect switches or breakers change state in a SCADA/EMS - manual creation, change or deletion of TopologicalNodes in a planning tool.
     """
 
-    def __init__(self, AngleRef_TopologicalNode=None, TopologicalNodes=None, *args, **kw_args):
+    def __init__(self, AngleRefTopologicalNode=None, TopologicalNodes=None, *args, **kw_args):
         """Initialises a new 'TopologicalIsland' instance.
 
         @param AngleRef_TopologicalNode: The angle reference for the island.   Normally there is one TopologicalNode that is selected as the angle reference for each island.   Other reference schemes exist, so the association is optional.
         @param TopologicalNodes: A topological node belongs to a topological island
         """
-        self._AngleRef_TopologicalNode = None
-        self.AngleRef_TopologicalNode = AngleRef_TopologicalNode
+        self._AngleRefTopologicalNode = None
+        self.AngleRefTopologicalNode = AngleRefTopologicalNode
 
         self._TopologicalNodes = []
         self.TopologicalNodes = [] if TopologicalNodes is None else TopologicalNodes
@@ -42,24 +42,24 @@ class TopologicalIsland(IdentifiedObject):
     _attr_types = {}
     _defaults = {}
     _enums = {}
-    _refs = ["AngleRef_TopologicalNode", "TopologicalNodes"]
+    _refs = ["AngleRefTopologicalNode", "TopologicalNodes"]
     _many_refs = ["TopologicalNodes"]
 
-    def getAngleRef_TopologicalNode(self):
+    def getAngleRefTopologicalNode(self):
         """The angle reference for the island.   Normally there is one TopologicalNode that is selected as the angle reference for each island.   Other reference schemes exist, so the association is optional.
         """
-        return self._AngleRef_TopologicalNode
+        return self._AngleRefTopologicalNode
 
-    def setAngleRef_TopologicalNode(self, value):
-        if self._AngleRef_TopologicalNode is not None:
-            self._AngleRef_TopologicalNode._AngleRef_TopologicalIsland = None
+    def setAngleRefTopologicalNode(self, value):
+        if self._AngleRefTopologicalNode is not None:
+            self._AngleRefTopologicalNode._AngleRef_TopologicalIsland = None
 
-        self._AngleRef_TopologicalNode = value
-        if self._AngleRef_TopologicalNode is not None:
-            self._AngleRef_TopologicalNode.AngleRef_TopologicalIsland = None
-            self._AngleRef_TopologicalNode._AngleRef_TopologicalIsland = self
+        self._AngleRefTopologicalNode = value
+        if self._AngleRefTopologicalNode is not None:
+            self._AngleRefTopologicalNode.AngleRef_TopologicalIsland = None
+            self._AngleRefTopologicalNode._AngleRef_TopologicalIsland = self
 
-    AngleRef_TopologicalNode = property(getAngleRef_TopologicalNode, setAngleRef_TopologicalNode)
+    AngleRefTopologicalNode = property(getAngleRefTopologicalNode, setAngleRefTopologicalNode)
 
     def getTopologicalNodes(self):
         """A topological node belongs to a topological island

@@ -24,7 +24,7 @@ class ShuntCompensator(RegulatingCondEq):
     """A shunt capacitor or reactor or switchable bank of shunt capacitors or reactors. A section of a shunt compensator is an individual capacitor or reactor.  A negative value for reactivePerSection indicates that the compensator is a reactor. ShuntCompensator is a single terminal device.  Ground is implied.A shunt capacitor or reactor or switchable bank of shunt capacitors or reactors. A section of a shunt compensator is an individual capacitor or reactor.  A negative value for reactivePerSection indicates that the compensator is a reactor. ShuntCompensator is a single terminal device.  Ground is implied.
     """
 
-    def __init__(self, nomQ=0.0, maxU=0.0, gPerSection=0.0, voltageSensitivity=0.0, nomU=0.0, b0PerSection=0.0, maximumSections=0, bPerSection=0.0, aVRDelay=0.0, minU=0.0, normalSections=0, reactivePerSection=0.0, switchOnCount=0, switchOnDate='', g0PerSection=0.0, SvShuntCompensatorSections=None, ShuntCompensatorPhases=None, *args, **kw_args):
+    def __init__(self, aVRDelay=0.0, grounded = False,  maximumSections=0, nomU=0.0, normalSections=0, phaseConnection = None, sections = 0.0, nomQ=0.0, maxU=0.0, gPerSection=0.0, voltageSensitivity=0.0,  b0PerSection=0.0, bPerSection=0.0,  minU=0.0, reactivePerSection=0.0, switchOnCount=0, switchOnDate='', g0PerSection=0.0, SvShuntCompensatorSections=None, ShuntCompensatorPhases=None, *args, **kw_args):
         """Initialises a new 'ShuntCompensator' instance.
 
         @param nomQ: Nominal reactive power output of the capacitor bank at the nominal voltage. This number should be positive. 
@@ -89,6 +89,13 @@ class ShuntCompensator(RegulatingCondEq):
 
         #: Zero sequence shunt (charging) conductance per section
         self.g0PerSection = g0PerSection
+
+        self.grounded = grounded
+        
+        self._phaseConnection = None
+        self.phaseConnection = phaseConnection
+
+        self.sections = sections
 
         self._SvShuntCompensatorSections = None
         self.SvShuntCompensatorSections = SvShuntCompensatorSections
