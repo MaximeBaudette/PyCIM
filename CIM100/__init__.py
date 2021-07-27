@@ -644,6 +644,7 @@ packageMap = {
     "SynchronousMachineDetailed": "CIM100.IEC61970.Dynamics",
     "SynchronousMachineSimplified": "CIM100.IEC61970.Dynamics",
     "SynchronousMachineEquivalentCircuit": "CIM100.IEC61970.Dynamics",
+    "LinearShuntCompensator":"CIM100.IEC61970.Base.Wires"
 
 }
 
