@@ -22,7 +22,7 @@ from CIM100.IEC61970.Base.Core.PowerSystemResource import PowerSystemResource
 
 class EnergyConsumerPhase(PowerSystemResource):
 
-    def __init__(self, phase=None, EnergyConsumer=None, pfixed=0.0, qfixed=0.0, *args, **kw_args):
+    def __init__(self, phase=None, EnergyConsumer=None, pfixed=0.0, p = 0.0, qfixed=0.0, q = 0.0, *args, **kw_args):
         """Initialises a new 'EnergyConsumerPhase' instance.
 
         @param phase:
@@ -33,7 +33,9 @@ class EnergyConsumerPhase(PowerSystemResource):
         self.EnergyConsumer = EnergyConsumer
 
         self.pfixed = pfixed
+        self.p = p
         self.qfixed = qfixed
+        self.q = q
 
         super(EnergyConsumerPhase, self).__init__(*args, **kw_args)
 

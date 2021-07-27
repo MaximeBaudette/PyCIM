@@ -32,6 +32,7 @@ class ACLineSegmentPhase(PowerSystemResource):
         """
 
         self.phase = phase
+        self.sequenceNumber = sequenceNumber
         self._ACLineSegment = None
         self.ACLineSegment = ACLineSegment
 

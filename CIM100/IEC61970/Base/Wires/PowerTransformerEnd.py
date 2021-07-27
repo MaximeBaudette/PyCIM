@@ -24,7 +24,7 @@ class PowerTransformerEnd(TransformerEnd):
     """A PowerTransformerEnd is associated with each Terminal of a PowerTransformer. The impdedance values r, r0, x, and x0 of a PowerTransformerEnd represents a star equivalentas follows 1) for a two Terminal PowerTransformer the high voltage PowerTransformerEnd has non zero values on r, r0, x, and x0 while the low voltage PowerTransformerEnd has zero values for r, r0, x, and x0. 2) for a three Terminal PowerTransformer the three PowerTransformerEnds represents a star equivalent with each leg in the star represented by r, r0, x, and x0 values. 3) for a PowerTransformer with more than three Terminals the PowerTransformerEnd impedance values cannot be used. Instead use the TransformerMeshImpedance or split the transformer into multiple PowerTransformers.A PowerTransformerEnd is associated with each Terminal of a PowerTransformer. The impdedance values r, r0, x, and x0 of a PowerTransformerEnd represents a star equivalentas follows 1) for a two Terminal PowerTransformer the high voltage PowerTransformerEnd has non zero values on r, r0, x, and x0 while the low voltage PowerTransformerEnd has zero values for r, r0, x, and x0. 2) for a three Terminal PowerTransformer the three PowerTransformerEnds represents a star equivalent with each leg in the star represented by r, r0, x, and x0 values. 3) for a PowerTransformer with more than three Terminals the PowerTransformerEnd impedance values cannot be used. Instead use the TransformerMeshImpedance or split the transformer into multiple PowerTransformers.
     """
 
-    def __init__(self, x0=0.0, b0=0.0, g0=0.0, ratedS=0.0, b=0.0, ratedU=0.0, g=0.0, r=0.0, x=0.0, r0=0.0, connectionKind="Z", PowerTransformer=None, *args, **kw_args):
+    def __init__(self, x0=0.0, b0=0.0, g0=0.0, ratedS=0.0, b=0.0, ratedU=0.0, g=0.0, r=0.0, x=0.0, r0=0.0, phaseAngleClock = 0, connectionKind="Z", PowerTransformer=None, *args, **kw_args):
         """Initialises a new 'PowerTransformerEnd' instance.
 
         @param x0: Zero sequence series reactance of the transformer end. 
@@ -69,6 +69,8 @@ class PowerTransformerEnd(TransformerEnd):
 
         #: Zero sequence series resistance (star-model) of the transformer end.
         self.r0 = r0
+
+        self.phaseAngleClock = phaseAngleClock
 
         #: Kind of connection. Values are: "Z", "A", "Yn", "Y", "Zn", "D", "I"
         self.connectionKind = connectionKind

@@ -24,7 +24,7 @@ class Switch(ConductingEquipment):
     """A generic device designed to close, or open, or both, one or more electric circuits.A generic device designed to close, or open, or both, one or more electric circuits.
     """
 
-    def __init__(self, switchOnDate='', normalOpen=False, ratedCurrent=0.0, retained=False, switchOnCount=0, SwitchingOperations=None, LoadMgmtFunctions=None, ConnectDisconnectFunctions=None, SwitchSchedules=None, SwitchPhases=None, CompositeSwitch=None, *args, **kw_args):
+    def __init__(self, switchOnDate='', normalOpen=False, open = False, ratedCurrent=0.0, retained=False, switchOnCount=0, SwitchingOperations=None, LoadMgmtFunctions=None, ConnectDisconnectFunctions=None, SwitchSchedules=None, SwitchPhases=None, CompositeSwitch=None, *args, **kw_args):
         """Initialises a new 'Switch' instance.
 
         @param switchOnDate: The date and time when the switch was last switched on. 
@@ -44,6 +44,8 @@ class Switch(ConductingEquipment):
 
         #: The attribute is used in cases when no Measurement for the status value is present. If the Switch has a status measurment the Discrete.normalValue is expected to match with the Switch.normalOpen.
         self.normalOpen = normalOpen
+
+        self.open = open
 
         #: The maximum continuous current carrying capacity in amps governed by the device material and construction.
         self.ratedCurrent = ratedCurrent

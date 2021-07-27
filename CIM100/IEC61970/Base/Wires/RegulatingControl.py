@@ -24,7 +24,7 @@ class RegulatingControl(PowerSystemResource):
     """Specifies a set of equipment that works together to control a power system quantity such as voltage or flow.Specifies a set of equipment that works together to control a power system quantity such as voltage or flow.
     """
 
-    def __init__(self, mode="fixed", targetRange=0.0, discrete=False, targetValue=0.0, monitoredPhase="s12N", RegulatingCondEq=None, Terminal=None, RegulationSchedule=None, targetDeadband=0, *args, **kw_args):
+    def __init__(self, mode="fixed", targetRange=0.0, discrete=False, enabled= False, targetValue=0.0, monitoredPhase="s12N", RegulatingCondEq=None, Terminal=None, RegulationSchedule=None, targetDeadband=0, *args, **kw_args):
         """Initialises a new 'RegulatingControl' instance.
 
         @param mode: The regulating control mode presently available.  This specifications allows for determining the kind of regualation without need for obtaining the units from a schedule. Values are: "fixed", "timeScheduled", "voltage", "admittance", "reactivePower", "powerFactor", "currentFlow", "activePower", "temperature"
@@ -44,6 +44,9 @@ class RegulatingControl(PowerSystemResource):
 
         #: The regulation is performed in a discrete mode.
         self.discrete = discrete
+
+        #: 
+        self.enabled = enabled
 
         #: The target value specified for case input.   This value can be used for the target value wihout the use of schedules. The value has the units appropriate to the mode attribute.
         self.targetValue = targetValue
