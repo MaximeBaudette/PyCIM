@@ -174,6 +174,8 @@ def cimread(source, packageMap=None, nsURI=None, start_dict=None):
                                             setattr(obj, attr, True)
                                         else:
                                             setattr(obj, attr, False)
+                                    elif typ == type(1): # KKG: Test if it is int value
+                                        setattr(obj, attr, typ(float(elem.text)))
                                     else:
                                         setattr(obj, attr, typ(elem.text))
                                 except TypeError:
